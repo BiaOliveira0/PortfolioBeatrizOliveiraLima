@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dalya Baron - Astrophysics Research Student</title>
+    <title>Beatriz Oliveira - Astrophysics Research Student</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header class="header">
         <div class="logo">
-            <span class="dot"></span> Dalya Baron
+            <span class="dot"></span> Beatriz Oliveira
         </div>
         <nav class="nav">
             <a href="#resume">Resume</a>
@@ -28,7 +28,7 @@
                 <h1>Dalya Baron</h1>
                 <h2>A Bit About Me</h2>
                 <p>
-                    I am a graduate student at the Tel Aviv University Astrophysics Department. I am mostly working on active galactic nuclei and their role in galaxy evolution, and on machine learning algorithms and their application to astronomical datasets.
+                    lo
                 </p>
             </div>
         </section>
