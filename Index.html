@@ -3,183 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Beatriz Oliveira, designer e estudante de Design na FMU, com trabalhos em marketing visual e publicidade.">
     <title>Portfólio - Beatriz Oliveira</title>
-    <style>
-        /* Global Styles */
-        body {
-            font-family: Avenir, heavy;
-            color: #fff;
-            background-color: #000;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #000;
-            padding: 10px 20px;
-            border-bottom: 1px solid #fff;
-        }
-
-        header ul {
-            display: flex;
-            list-style: none;
-            justify-content: space-between;
-            padding: 0;
-        }
-
-        header li a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 1.2em;
-            padding: 5px 10px;
-        }
-
-        /* Introduction Section */
-        .intro {
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        .profile-picture img {
-            border-radius: 50%;
-            width: 150px;
-            border: 3px solid #fff;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 20px 0;
-        }
-
-        h1 span {
-            color: #4fc3f7;
-            font-style: Belove;
-        }
-
-        p {
-            max-width: 600px;
-            margin: 0 auto;
-            font-size: 1.1em;
-        }
-
-        /* Works Section */
-        .works {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            padding: 50px 20px;
-        }
-
-        .work-item {
-            background-color: #222;
-            border-radius: 10px;
-            padding: 20px;
-            text-align: center;
-            width: 300px;
-        }
-
-        .work-item img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .work-item h3 {
-            margin: 15px 0;
-        }
-
-        .work-item span {
-            color: #4fc3f7;
-            font-size: 0.9em;
-        }
-
-        /* Contact Section */
-        .contact {
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        .contact h2 {
-            margin-bottom: 20px;
-        }
-
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-
-        form input, form textarea {
-            width: 100%;
-            margin: 10px 0;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-        }
-
-        form button {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #4fc3f7;
-            color: #000;
-            font-size: 1em;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#">DESIGNER ||</a></li>
-                <li><a href="#">sobre mim</a></li>
-                <li><a href="#">trabalhos</a></li>
+                <li><a href="#sobre-mim">sobre mim</a></li>
+                <li><a href="#trabalhos">trabalhos</a></li>
                 <li><a href="#">Be</a></li>
                 <li><a href="#">in</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="intro">
+        <section class="intro" id="sobre-mim">
             <div class="profile-picture">
-                <a href="IMG_2109_Original.jpeg"><img src="IMG_2109_Original.jpeg" alt="Beatriz Oliveira" border="0"></a> 
+                <a href="IMG_2109_Original.jpeg"><img src="IMG_2109_Original.jpeg" alt="Beatriz Oliveira"></a> 
             </div>
             <h1>BEATRIZ <span>Oliveira</span></h1>
             <p>
                 Seja bem-vindo! Tenho certificado em Comunicação Visual, trabalhei como freelancer para duas empresas, uma cafeteria e uma empresa de engenharia, além de criar trabalhos próprios para incrementar meu portfólio. Atualmente estou no 6º semestre de Bacharel em Design na FMU e estagiando em uma empresa de seguro financeiro na sua área de Marketing.
             </p>
         </section>
-        <section class="works">
+        <section class="works" id="trabalhos">
             <div class="work-item">
-                <img src="IMG_4070.jpeg" alt="IMG-4070-2" border="0" />
+                <img src="IMG_4070.jpeg" alt="Caffe Latte">
                 <h3>Caffe Latte</h3>
                 <p>Foto e texto de minha autoria, divulgando uma nova torra de café.</p>
                 <span>2023 - 2024</span>
             </div>
             <div class="work-item">
-             <a href="IMG_4071.jpeg"><img src="IMG_4071.jpeg" alt="IMG-4071" border="0"></a>
+                <a href="IMG_4071.jpeg"><img src="IMG_4071.jpeg" alt="Ennova"></a>
                 <h3>Ennova</h3>
                 <p>Foto e texto de minha autoria, mostrando o quanto a empresa se importa com a organização e limpeza das obras.</p>
                 <span>2023 - 2024</span>
             </div>
             <div class="work-item">
-                <a href="https://ibb.co/bBk53Mw"><img src="https://i.ibb.co/r6V2tR8/Captura-de-tela-2024-11-26-200515.png" alt="Captura-de-tela-2024-11-26-200515" border="0"></a>
+                <a href="https://ibb.co/bBk53Mw"><img src="https://i.ibb.co/r6V2tR8/Captura-de-tela-2024-11-26-200515.png" alt="Zac Imóveis"></a>
                 <h3>Zac Imóveis</h3>
                 <p>Ideia minha de publicidade de uma empresa focada em imóveis.</p>
                 <span>2024</span>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="contato">
             <h2>ENTRE EM CONTATO COMIGO!</h2>
             <form>
-                <input type="text" placeholder="Seu Nome">
-                <input type="email" placeholder="Seu Email">
-                <textarea placeholder="Sua Mensagem"></textarea>
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" required></textarea>
                 <button type="submit">ENVIAR</button>
             </form>
         </section>
     </main> 
 </body>
 </html>
-
