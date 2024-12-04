@@ -1,0 +1,146 @@
+/* Global Styles */
+body {
+    font-family: 'Avenir', sans-serif;
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header li a:hover {
+    color: #4fc3f7;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Introduction Section */
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    border: 3px solid #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #4fc3f7;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+/* Works Section */
+.works {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.work-item {
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.work-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.work-item h3 {
+    margin: 15px 0;
+}
+
+.work-item span {
+    color: #4fc3f7;
+    font-size: 0.9em;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4fc3f7;
+    color: #000;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #fff;
+    color: #4fc3f7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .works {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-item {
+        width: 90%;
+    }
+}
